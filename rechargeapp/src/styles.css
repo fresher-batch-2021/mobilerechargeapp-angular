@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin:0%;
+    padding: 0%;
+}
+.index{
+    margin:0px;
+    /* background-image: url("./images/foxtrot.png"); */
+    background-color: aquamarine;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:right;
+    background-size:cover;
+}.anchor{
+    text-decoration: none;
+}
+.navbar{
+    color:white;
+    padding:15px 5px;
+    background-color:black;
+}
+.nav-item{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    margin-left:20px;
+
+
+}
+.first{
+    margin: 0;
+    margin-left: 0px;
+}

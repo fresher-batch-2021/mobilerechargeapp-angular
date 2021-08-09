@@ -1,0 +1,25 @@
+
+.navbar{
+    padding:15px 5px;
+    background-color:black;
+}
+.nav-item{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    margin-left:20px;
+}
+.first{
+    margin: 0;
+    margin-left: 0px;
+}
+body{
+    background-image:url('/assets/images/reg.jpg') ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin: 0%;
+    
+    }
+    .example{
+        margin-top: 20px;
+    }
