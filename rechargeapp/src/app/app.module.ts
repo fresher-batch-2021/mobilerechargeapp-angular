@@ -8,6 +8,12 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { RechargeComponent } from './recharge/recharge.component';
 import { PlansComponent } from './plans/plans.component';
+import { FormsModule } from '@angular/forms';
+import { PrepaidComponent } from './prepaid/prepaid.component';
+import { PostpaidComponent } from './postpaid/postpaid.component';
+import { PaymentComponent } from './payment/payment.component';
+import { DebitcardComponent } from './debitcard/debitcard.component';
+import { UpiComponent } from './upi/upi.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +22,18 @@ import { PlansComponent } from './plans/plans.component';
     LoginComponent,
     RegisterComponent,
     RechargeComponent,
-    PlansComponent
+    PlansComponent,
+    PrepaidComponent,
+    PostpaidComponent,
+    PaymentComponent,
+    DebitcardComponent,
+    UpiComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

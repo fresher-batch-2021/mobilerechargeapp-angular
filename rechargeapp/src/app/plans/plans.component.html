@@ -14,15 +14,17 @@
                         <th scope="col">Descriptionnnn!!!</th>
                     </tr>
                 </thead>
-                    <tbody id="plans">
+                    <tbody id="plans" >
+                        <tr *ngFor="let sims of sim">
+                            <td> {{sims.id}}</td>
+                            <td>{{sims.price}}</td>
+                            <td>{{sims.validity}}</td>
+                            <td>{{sims.description}}</td>
+                        </tr>
 
                     </tbody>
                 </table>
             </div>
-            <div class  =  "col-2">
-                <img src="./images/airtel.png" alt="airtel" height="60px" width="80px">
-                <img style="padding-left : 30px;" src="./images/jio.png" alt="airtel" height="60px" width="80px">
-                <img style="padding-left:50px;" src="./images/vodafoneidea.png" alt="vi" height="60px" width="80px">
             </div>
         </div>
     </div>
