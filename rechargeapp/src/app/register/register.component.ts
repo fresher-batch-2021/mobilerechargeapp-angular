@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import axios from "axios"
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -25,6 +25,7 @@ export class RegisterComponent implements OnInit {
       alert("password must be greater than 8 digits");
     }
     else {
+      
       alert("registered successfully");
       window.location.href="login";
     }

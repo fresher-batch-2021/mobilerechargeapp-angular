@@ -1,15 +1,15 @@
 <div class="register-content">
+    <div class="register">
 <h1>Register</h1>
 <form (ngSubmit)="register()">
-    <div class="register">
 <label for="name">Name </label><br>
     <input type="text" name="name" [(ngModel)]="name" placeholder="Enter the name" autofocus> <br>
     <label for="email"> Email</label><br>
     <input type="email" name="email" [(ngModel)]="email" placeholder="enter the email" required><br>
     <label for="password">Password</label><br>
-    <input type="text" name="password" [(ngModel)]="password" placeholder="enter the password"><br>
+    <input type="password" name="password" [(ngModel)]="password" placeholder="enter the password"><br>
     <button>submit</button>
+    </form>
 </div>
-</form>
 </div>
     

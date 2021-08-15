@@ -11,5 +11,12 @@ export class PostpaidComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  providers=[
+    {id:1, name: "Airtel"},
+    {id:2, name:"Jio"},
+    {id:3,name:"vodafone"},
+    {id:4,name:"jio"}
+     
+    ]
 
 }

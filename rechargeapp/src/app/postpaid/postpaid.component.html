@@ -1,13 +1,12 @@
 <div class="postpaid">
-<h1>postpaid</h1>
-<label class="postpaid-label"for="mobilenumber">Mobilenumber</label><br>
-<input class="postpaid-input"type="number" name="mobilenumber" id="mobilenumber" placeholder="mobilenumber" autofocus required><br>
-<select id="provider" required>
-        <option selected> select sim</option>
-        <option>airtel</option>
-        <option>jio</option>
-        <option>vodafone</option>
-        <option>idea</option>
+<h1 class="postpaid-head">postpaid</h1>
+<label class="postpaid-label" for="mobilenumber">Mobilenumber</label><br>
+<input class="postpaid-input" type="number" name="mobilenumber" id="mobilenumber" placeholder="mobilenumber" autofocus required><br>
+<select class="select-style"   id="provider" required>
+        <option *ngFor="let sim of providers" value={{sim.id}}>{{sim.name}}</option>
+           
 </select>
+<a class="postpaid-anchor" routerLink="/payment">
         <button>confirm</button>
+</a>
         </div>

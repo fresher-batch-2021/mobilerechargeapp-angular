@@ -8,15 +8,20 @@
         <br>
         <br>
         <br>
-        <select class="select-style" id ="sims">
-            
+        <select class="select-style" id ="sims" required>
+            <option *ngFor="let sim of providers" value={{sim.id}}>{{sim.name}}</option>
            
         </select>
         <select class="select-style" id="plans">
-
+            <option *ngFor="let plan of content" value={{plan.id}}>{{plan.price}}</option>
+           
         </select>
         <br>
-        <button class="prepaid-button">confirm</button>
+        <a routerLink="/payment">
+<button>
+    submit
+</button>
+        </a>
     </form>
 </div>
 </div>

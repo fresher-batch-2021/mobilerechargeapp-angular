@@ -1,0 +1,13 @@
+.payment-button{
+    margin-top: 20px;
+    margin-left:60px;
+    }
+    .payment{
+        background-color: cornflowerblue;
+        border:1px solid black;
+        width: 50%;
+        height:50%;
+        display: block;
+        margin:auto;
+        margin-top: 180px;
+    }

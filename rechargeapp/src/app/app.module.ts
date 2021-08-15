@@ -14,6 +14,7 @@ import { PostpaidComponent } from './postpaid/postpaid.component';
 import { PaymentComponent } from './payment/payment.component';
 import { DebitcardComponent } from './debitcard/debitcard.component';
 import { UpiComponent } from './upi/upi.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { UpiComponent } from './upi/upi.component';
     PostpaidComponent,
     PaymentComponent,
     DebitcardComponent,
-    UpiComponent
+    UpiComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

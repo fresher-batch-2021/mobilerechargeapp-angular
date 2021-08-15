@@ -1,0 +1,53 @@
+body {
+    background-color: cadetblue;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: cornsilk;
+}
+
+.box-style {
+    width : 200px;
+    height : 35px;
+    border-radius: 5px 5px;
+}
+
+.debit-card2 {
+    background-color: beige;
+    padding-left: 10px;
+    border-radius: 20px 40px;
+    border: 5px rgb(48, 42, 42);
+    width: 30%;
+    margin-top: 100px;
+    margin-left: 450px; 
+    display: block;
+    
+}
+.select-style{
+    width:210px;
+    height:38px;
+    border-radius: 5px 5px;
+}
+h1{
+    text-align: center;
+}
+.formcontainer input, select
+{
+    display: block;
+    margin: 0 auto;
+}
+.formcontainer label
+{
+    
+    margin-left:100px;
+}
+.formcontainer button
+{
+  display: block;
+  margin: auto;
+  padding: 10px;
+}

@@ -1,18 +1,7 @@
-
-.login-content{
-    background-image:url("/assets/images/index2.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0%;
-    padding:150px;
-    height:300px;
-
-}
 .login{
     background-color:rgb(82, 102, 95);
-    margin-top:100px;
-    margin-left:150px; 
+    margin-top:200px;
+    margin-left:400px; 
     border:1px solid red;
     opacity: 0.8;
        padding:40px;

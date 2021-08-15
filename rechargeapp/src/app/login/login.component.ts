@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
     }
     else{
       alert("login successful");
-      window.location.href="recharge";
+      window.location.href="/recharge";
     }
 }
 }
